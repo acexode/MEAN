@@ -1,0 +1,33 @@
+<a href="#!/anime">Go Back</a>
+ <div class="panel panel-default" ng-init="getSingle()">
+  <div class="panel-heading">
+    <h3 class="panel-title">My Favourite Animes</h3>
+  </div>
+  <div class="panel-body">
+   <div class="container">
+       <div class="row" >
+           <div class="col-md-12" >
+               
+                   <div class="col-md-6">
+                       <img class="thumbnail" ng-src="{{anime.image_url}}" alt="">
+                   </div>
+                   <section>
+                   <div class="col-md-6">
+                       <div class="well">
+                           <h1>{{anime.title}}</h1>
+                           <p>Plot Summary: {{anime.description}}</p>
+                           <p>Genre: {{anime.genre}}</p>
+                           <p>Episodes: {{anime.episodes}}</p>
+                           <p>Main Character: {{anime.main_character}}</p>
+                           
+                            <br>
+                           <a class="btn btn-primary" ng-href="#!/anime/edit/{{anime._id}}">Edit</a>
+                           <a class="btn btn-danger" ng-click="delete()">Delete</a>
+                       </div>
+                   </div>
+               </section>
+           </div>
+       </div>
+   </div>
+ </div>
+</div>

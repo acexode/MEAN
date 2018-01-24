@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat|Raleway');
+
+
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+       font-family: 'Lato', sans-serif;
+}
+p{
+    
+    font-family: 'Montserrat', sans-serif;
+   
+ }
+
+
+row{
+    padding: 10px 20px;
+    margin-bottom: 5%;
+}
+
+img{
+    width: 100%;
+}
+section{
+    width: 100% ;
+    padding: 0px 30px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+.form-group{
+    width: 95% !important;
+}
